@@ -3,21 +3,36 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="15dp">
 
-    <android.widget.Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="캘린더"
-        android:layout_weight="1"
-        android:background="#26C1FF"
-        />
+        android:orientation="horizontal">
 
-    <android.widget.Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="일기"
-        android:layout_weight="1"
-        android:background="#26C1FF"/>
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#26C1FF"
+            android:text="캘린더" />
+
+
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#26C1FF"
+            android:text="일기" />
+
+    </LinearLayout>
+
+    <CalendarView
+        android:id="@+id/calendarView7"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
