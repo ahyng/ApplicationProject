@@ -8,10 +8,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="캘린더"
         android:layout_weight="1"
         android:background="#26C1FF"
-        />
+        android:text="캘린더" />
 
     <Button
         android:layout_width="wrap_content"
